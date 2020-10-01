@@ -10,3 +10,8 @@ class RecentCounter:
 			self.d.pop(0)
 
 		return len(self.d)
+
+
+# Your RecentCounter object will be instantiated and called as such:
+# obj = RecentCounter()
+# param_1 = obj.ping(t)
