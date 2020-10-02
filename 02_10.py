@@ -16,6 +16,7 @@ class Solution:
 			if item == target:
 				self.result.append(temp.copy())
 				temp.pop()
+			
 			else:
 				index = candidates.index(item)
 				self.combinations_helper(temp, candidates[index:], target-item)
