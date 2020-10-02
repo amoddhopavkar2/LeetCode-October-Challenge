@@ -1,5 +1,9 @@
 # Number of Recent Calls
 
+# Your RecentCounter object will be instantiated and called as such:
+# obj = RecentCounter()
+# param_1 = obj.ping(t)
+
 class RecentCounter:
 
     def __init__(self):
@@ -13,8 +17,3 @@ class RecentCounter:
             
         return len(self.result)
         
-
-
-# Your RecentCounter object will be instantiated and called as such:
-# obj = RecentCounter()
-# param_1 = obj.ping(t)
