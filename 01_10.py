@@ -2,16 +2,17 @@
 
 class RecentCounter:
 
-	def __init__(self):
-		self.d = []
+    def __init__(self):
+        self.result = []
 
-	def ping(self, t: int) -> int:
-		self.d.append(t)
-
-		while self.d[0] < t - 3000:
-			self.d.pop(0)
-
-		return len(self.d)
+    def ping(self, t: int) -> int:
+        self.result.append(t)
+        
+        while self.result[0] < t - 3000:
+            self.result.pop(0)
+            
+        return len(self.result)
+        
 
 
 # Your RecentCounter object will be instantiated and called as such:
