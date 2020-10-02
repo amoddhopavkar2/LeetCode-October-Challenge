@@ -5,7 +5,7 @@ class Solution:
 		self.result = []
 		candidates.sort()
 		self.find_combinations([], candidates, target)
-		return self.result []
+		return self.result
 
 	def find_combinations(self, temp, candidates, target):
 		for item in candidates:
