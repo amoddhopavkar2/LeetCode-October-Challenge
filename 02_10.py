@@ -17,6 +17,7 @@ class Solution:
 				self.result.append(temp.copy())
 				temp.pop()
 				break
+			
 			else:
 				index = candidates.index(item)
 				self.find_combinations(temp, candidates[index:], target-item)
