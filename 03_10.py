@@ -4,7 +4,6 @@ class Solution:
 	def findPairs(self, nums: List[int], k: int) -> int:
 		if k < 0:
 			return 0
-
 		pairs, seen = set(), set()
 		for n in nums:
 			if (n - k) in seen:
