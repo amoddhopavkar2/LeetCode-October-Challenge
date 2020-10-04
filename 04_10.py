@@ -1,8 +1,5 @@
 # Remove Covered Intervals
 
-# Sort the start in ascending order.
-# In-case the start is same, then sort according to the end in descending order.
-
 class Solution:
 	def removeCoveredIntervals(self, intervals: List[List[int]]) -> int:
 		# Sort the start in ascending order.
