@@ -11,4 +11,5 @@ class Solution:
 			if end > ending:
 				count += 1
 				ending = end
+
 		return count
