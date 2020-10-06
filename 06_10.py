@@ -15,5 +15,4 @@ class Solution:
 			root.left = self.insertIntoBST(root.left, val)
 		else:
 			root.right = self.insertIntoBST(root.right, val)
-
 		return root
