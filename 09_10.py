@@ -43,3 +43,11 @@ class Codec:
                 queue.append(node.right)
                 
         return root
+
+# Your Codec object will be instantiated and called as such:
+# Your Codec object will be instantiated and called as such:
+# ser = Codec()
+# deser = Codec()
+# tree = ser.serialize(root)
+# ans = deser.deserialize(tree)
+# return ans
