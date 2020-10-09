@@ -7,6 +7,14 @@
 #         self.left = None
 #         self.right = None
 
+# Your Codec object will be instantiated and called as such:
+# Your Codec object will be instantiated and called as such:
+# ser = Codec()
+# deser = Codec()
+# tree = ser.serialize(root)
+# ans = deser.deserialize(tree)
+# return ans
+
 class Codec:
 
     def serialize(self, root: TreeNode) -> str:
@@ -45,11 +53,3 @@ class Codec:
                 queue.append(node.right)
                 
         return root
-
-# Your Codec object will be instantiated and called as such:
-# Your Codec object will be instantiated and called as such:
-# ser = Codec()
-# deser = Codec()
-# tree = ser.serialize(root)
-# ans = deser.deserialize(tree)
-# return ans
