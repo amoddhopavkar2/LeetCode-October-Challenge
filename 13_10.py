@@ -22,4 +22,5 @@ class Solution:
 			node = ListNode(val)
 			node.next = nxt
 			nxt = node
+		
 		return node
