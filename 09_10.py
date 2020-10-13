@@ -8,7 +8,6 @@
 #         self.right = None
 
 class Codec:
-
     def serialize(self, root: TreeNode) -> str:
         """Encodes a tree to a single string.
         """
