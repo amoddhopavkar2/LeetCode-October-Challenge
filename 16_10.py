@@ -1,4 +1,4 @@
-# Search in 2D Matrix
+# Search in 2-D Matrix
 
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
@@ -6,3 +6,4 @@ class Solution:
             if len(matrix[i]) > 0 and target >= matrix[i][0] and target <= matrix[i][-1] and target in matrix[i]:
                 return True
         return False
+
