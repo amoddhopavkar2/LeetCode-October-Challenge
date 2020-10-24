@@ -23,3 +23,4 @@ class Solution:
                 return max_points
         
         return max_points
+        
