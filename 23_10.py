@@ -21,4 +21,3 @@ class Solution:
 
                 stack.append(nums[i])
         return False
-
