@@ -23,3 +23,7 @@ class Solution:
                 return max_points
         
         return max_points
+<<<<<<< HEAD
+=======
+        
+>>>>>>> e3b8eba2e72e37f77a7156e4a853c25c115139fc
