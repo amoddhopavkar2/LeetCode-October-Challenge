@@ -11,4 +11,3 @@ class Solution:
 				res[i+1] += res[i]
 
 		return min(1.0, res[query_glass])
-
