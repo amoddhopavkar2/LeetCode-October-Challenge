@@ -9,3 +9,4 @@ class Solution:
 				dp[i] = dp[i-j*j]^1
 				j += 1
 		return dp[n]
+		
