@@ -19,10 +19,10 @@ class Solution:
 		else:
 			return None
 
-		curr = head
+		current = head
 
-		while curr != slow:
-			curr = curr.next
+		while current != slow:
+			current = current.next
 			slow = slow.next
 
-		return curr
+		return current
