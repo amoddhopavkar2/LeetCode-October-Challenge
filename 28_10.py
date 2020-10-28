@@ -13,6 +13,7 @@ class Solution:
                     result.append(str(i))
                     
                 else:
-                    result.append(str(i)+"->"+str(y-1))
+                    answer = str(i) + "->" + str(y-1)
+                    result.append(answer)
         
         return result
