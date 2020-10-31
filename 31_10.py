@@ -16,9 +16,11 @@ class Solution:
         def traverse(node):
             if not node:
                 return
+            
             traverse(node.left)
             container.append((node.val, node))
             traverse(node.right)
+        
         traverse(root)
         target = sorted(container)
         for i in range(len(container)):
